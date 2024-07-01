@@ -14,7 +14,6 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import PromptTemplate
 import torch
 import os
-langsmith_api = "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"
 local_llm = 'llama3'
 
 
