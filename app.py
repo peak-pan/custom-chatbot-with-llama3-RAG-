@@ -32,7 +32,7 @@ def load_documents(PATH):
 def format_docs(docs):
     return "\n\n".join(doc.page_content for doc in docs)
 
-alic_doc = load_documents("books")
+alic_doc = load_documents("db")
 
 text_splitter = RecursiveCharacterTextSplitter.from_tiktoken_encoder(
     chunk_size=250, chunk_overlap=0
